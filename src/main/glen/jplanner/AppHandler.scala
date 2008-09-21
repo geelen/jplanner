@@ -1,15 +1,16 @@
 package glen.jplanner
 
-import org.mortbay.jetty.{Request, Response, Handler}
-import javax.servlet.http.HttpServletResponse.SC_OK
-
+import org.mortbay.jetty.{HttpConnection, Request, Response, Handler}
+import scala.xml.Elem
 object AppHandler {
   def get(): Handler = {
-    new HandlerWrapper((target: String, request: Request, response: Response, dispatch: Int) => {
-      response.setContentType("text/html")
-      response.setStatus(SC_OK)
-      response.getWriter().println(<html><head><title>{target}</title></head><body><h1>{target}</h1></body></html>)
-      request.setHandled(true)
+    new HandlerWrapper((target: String, dispatch: Int) => {
+      val xml : Elem = <html><head><title>{target}</title></head><body><h1>{target}</h1>{body}</body></html>
+      xml.toString
     })
+  }
+
+  def body() = {
+    new HttpConnection()
   }
 }

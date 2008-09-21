@@ -73,19 +73,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/glen/jplanner/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="40" selection-start="661" selection-end="661" vertical-scroll-proportion="0.32380953">
+            <state line="17" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppHandler.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AppHandler.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/glen/jplanner/AppHandler.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="114" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+            <state line="15" column="1" selection-start="407" selection-end="407" vertical-scroll-proportion="0.30357143">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandlerWrapper.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/glen/jplanner/HandlerWrapper.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="68" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -568,7 +577,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="5" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.32990867" order="2" x="2026" y="130" width="855" height="339" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32990867" order="2" x="2026" y="130" width="855" height="339" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="4" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="0" />
     </layout>
@@ -716,9 +725,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/glen/jplanner/AppHandler.scala">
+    <entry file="file:///opt/jetty/modules/jetty/src/main/java/org/mortbay/jetty/handler/AbstractHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="114" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+        <state line="29" column="37" selection-start="1203" selection-end="1218" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -730,16 +739,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///opt/jetty/modules/jetty/src/main/java/org/mortbay/jetty/handler/AbstractHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/glen/jplanner/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="1203" selection-end="1218" vertical-scroll-proportion="0.0">
+        <state line="17" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/glen/jplanner/Main.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/glen/jplanner/HandlerWrapper.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="40" selection-start="661" selection-end="661" vertical-scroll-proportion="0.32380953">
+        <state line="25" column="68" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/glen/jplanner/AppHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="407" selection-end="407" vertical-scroll-proportion="0.30357143">
           <folding />
         </state>
       </provider>
