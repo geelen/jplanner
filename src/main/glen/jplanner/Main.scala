@@ -13,8 +13,8 @@ object Main {
 
     val resourceHandler = new ResourceHandler()
     resourceHandler.setResourceBase("www")
-//    server.setHandlers(Array[Handler](resourceHandler, new DefaultHandler()))
-    server.setHandler(resourceHandler)
+    server.setHandlers(Array[Handler](resourceHandler, AppHandler.get))
+//    server.setHandler(resourceHandler)
 
     server.start()
     server.join()
